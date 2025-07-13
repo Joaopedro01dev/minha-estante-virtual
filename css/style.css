@@ -93,7 +93,7 @@ footer{
 
 .book-card img{
     max-width: 100%;
-    height: 300px;
+    height: auto;
     border-radius: 12px 12px 0 0;
 }
 
@@ -368,6 +368,7 @@ footer{
     .book-cover img{
         width: 100%;
         max-width: 280px;
+        height: auto;
     }  
     
     .book-details-info p{
