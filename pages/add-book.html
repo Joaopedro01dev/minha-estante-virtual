@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Letrus - Add Book</title>
+         <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="../index.html" class="logo-link">
+                <div class="logo-icon">
+                    <img src="../assets/images/logo-livro.png" alt="Logo Icon" height="70">
+                    <span>Letrus</span>                
+                </div>
+            </a>
+
+            <nav>
+                <button class="add-button" aria-label="Add new book review">Add Book</button>
+            </nav>
+        </header>
+
+        <main>
+            <div class="add-book-container">
+                <h2>New Review</h2>
+
+                <form>
+                    <div class="form-container">
+                        <div class="form-group">
+                            <label for="book-name">Title Book</label>
+                            <input type="text" id="book-name" placeholder="Enter the book title">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="author-name">Author Name</label>
+                            <input type="text" id="author-name" placeholder="Enter the author name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="poster-url">Poster URL</label>
+                            <input type="text" id="poster-url" placeholder="Paste image URL (JPG or PNG)">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="rating-select">Stars</label>
+                                <select id="rating-select">
+                                    <option value="">Choose a Rating</option>
+                                    <option value="1">★☆☆☆☆ - 1 Star</option>
+                                    <option value="2">★★☆☆☆ - 2 Stars</option>
+                                    <option value="2">★★★☆☆ - 3 Stars</option>
+                                    <option value="3">★★★★☆ - 4 Stars</option>
+                                    <option value="5">★★★★★ - 5 Stars</option>
+                                </select>
+                            </div>
+
+                        <div class="form-group">
+                                <label for="gender-select">Gender</label>
+                                <select id="gender-select">
+                                    <option value="">Chosse a Gender</option>
+                                    <option value="Aventura">Aventura</option>
+                                    <option value="Autoajuda">Autoajuda</option>
+                                    <option value="Biografia">Biografia</option>
+                                    <option value="Infantojuvenil">Infantojuvenil</option>
+                                    <option value="Filosofia">Filosofia</option>
+                                    <option value="Fábula">Fábula</option>
+                                    <option value="Ficção">Ficção</option>
+                                    <option value="Distopia">Distopia</option>
+                                    <option value="Estratégia">Estratégia</option>
+                                    <option value="Romance">Romance</option>
+                                    <option value="Terror">Terror</option>
+                                    <option value="Comédia">Comédia</option>
+                                    <option value="Drama">Drama</option>
+                                    <option value="Mistério">Mistério</option>
+                                    <option value="Fantasia">Fantasia</option>
+                                    <option value="Suspense">Suspense</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="reading-date">Reading Date</label>
+                                <input type="date" id="reading-date">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="book-review">My Review</label>
+                            <textarea id="book-review" rows="5" placeholder="Write your thoughts here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Add</button>
+
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 MLib &ndash; My Book Library</p>
+        </footer>
+    </body>
+</html>
